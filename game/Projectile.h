@@ -15,6 +15,21 @@
 */
 
 extern const idEventDef EV_Explode;
+extern void startQuakeBattle(const char* enemy);
+extern void spawnMon(const char* monType);
+extern void killMon();
+extern void Tackle();
+extern void Protect();
+extern void SwordsDance();
+extern void Growl();
+extern void enemyTurn();
+extern void spawnWildMon();
+extern void shopRewards();
+extern void protectionBreaker();
+extern void willBreaker();
+extern void attackEnhancer();
+extern void geminiSplit();
+extern void olympicMead();
 
 class idProjectile : public idEntity {
 public :
